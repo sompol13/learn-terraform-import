@@ -1,6 +1,8 @@
 ## Import Terraform Configuration
 In this tutorial, you will import an existing Docker container and image into an empty Terraform workspace. By doing so, you will learn strategies and considerations for importing real-world infrastructure into Terraform.
 
+<img width="1600" alt="Nginx" src="https://user-images.githubusercontent.com/33342822/150834449-218abaee-4097-4dda-b742-dc0791f9f978.png">
+
 ### Create a Docker container
 - `docker run --name hashicorp-learn --detach --publish 8080:80 nginx:latest`
 - Visit the address 0.0.0.0:8080 in your web browser to see the NGINX default index page.
